@@ -26,200 +26,25 @@ class _ListGeneratorState extends State<ListGenerator> {
                 child: Container(
                   child: Column(
                     children: <Widget>[
-                      Container(
-                        margin: EdgeInsets.only(bottom: 8.0),
-                        width: double.infinity,
-                        height: 120,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
-                            image: AssetImage('images/image_20.png'),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 17.0, vertical: 15.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(top: 50.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-                                    Text(
-                                      'Утром',
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 17.0,
-                                        fontWeight: FontWeight.w700,
-                                        fontFamily: 'OpenSans',
-                                      ),
-                                    ),
-                                    ViewDescriptionPage(),
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
+                      PhotoContainer(
+                        photo: 'images/image_20.png',
+                        label: 'Утром ',
                       ),
-                      Container(
-                        margin: EdgeInsets.only(bottom: 8.0),
-                        width: double.infinity,
-                        height: 120,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
-                            image: AssetImage('images/image_22.png'),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 17.0, vertical: 15.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(top: 50.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-                                    Text(
-                                      'Вечером',
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 17.0,
-                                        fontWeight: FontWeight.w700,
-                                        fontFamily: 'OpenSans',
-                                      ),
-                                    ),
-                                    ViewDescriptionPage(),
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
+                      PhotoContainer(
+                        photo: 'images/image_22.png',
+                        label: 'Вечером',
                       ),
-                      Container(
-                        margin: EdgeInsets.only(bottom: 8.0),
-                        width: double.infinity,
-                        height: 120,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
-                            image: AssetImage('images/image_21.png'),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 17.0, vertical: 15.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(top: 50.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-                                    Text(
-                                      'После молитвы',
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 17.0,
-                                        fontWeight: FontWeight.w700,
-                                        fontFamily: 'OpenSans',
-                                      ),
-                                    ),
-                                    ViewDescriptionPage(),
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
+                      PhotoContainer(
+                        photo: 'images/image_21.png',
+                        label: 'После молитвы',
                       ),
-                      Container(
-                        margin: EdgeInsets.only(bottom: 8.0),
-                        width: double.infinity,
-                        height: 120,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
-                            image: AssetImage('images/image_20.1.png'),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 17.0, vertical: 15.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(top: 50.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-                                    Text(
-                                      'Важные дуаю Часть 1',
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 17.0,
-                                        fontWeight: FontWeight.w700,
-                                        fontFamily: 'OpenSans',
-                                      ),
-                                    ),
-                                    ViewDescriptionPage(),
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
+                      PhotoContainer(
+                        photo: 'images/image_20.1.png',
+                        label: 'Важные дуаю Часть 1',
                       ),
-                      Container(
-                        margin: EdgeInsets.only(bottom: 8.0),
-                        width: double.infinity,
-                        height: 120,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
-                            image: AssetImage('images/image_21.png'),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 17.0, vertical: 15.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(top: 50.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-                                    Text(
-                                      'Вечером',
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 17.0,
-                                        fontWeight: FontWeight.w700,
-                                        fontFamily: 'OpenSans',
-                                      ),
-                                    ),
-                                    ViewDescriptionPage(),
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
+                      PhotoContainer(
+                        photo: 'images/image_21.png',
+                        label: 'Вечером',
                       ),
                     ],
                   ),
@@ -249,6 +74,50 @@ class _ListGeneratorState extends State<ListGenerator> {
           ),
         )
       ],
+    );
+  }
+}
+
+class PhotoContainer extends StatelessWidget {
+  PhotoContainer({this.photo, this.label});
+
+  final String photo;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(bottom: 8.0),
+      width: double.infinity,
+      height: 120,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        image: DecorationImage(
+          image: AssetImage(photo),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 17.0, vertical: 15.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.only(top: 50.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    label,
+                    style: kPhotoListTextStyle,
+                  ),
+                  ViewDescriptionPage(),
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }

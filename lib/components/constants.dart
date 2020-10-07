@@ -5,6 +5,13 @@ const kAppbarTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
 );
 
+const kPhotoListTextStyle = TextStyle(
+  color: Colors.white,
+  fontSize: 17.0,
+  fontWeight: FontWeight.w700,
+  fontFamily: 'OpenSans',
+);
+
 const kMainBackground = Color(0xFFE5E5E5);
 const kAppbarTextColor = Color(0xFF3D3D3D);
 const kActiveFontColor = Color(0xFF558B2F);
