@@ -2,7 +2,7 @@
 
 A new Flutter application.
 
-https://github.com/Anna-Myzukina/azkara/blob/main/images/4kpeaj.gif
+![screen](https://github.com/Anna-Myzukina/azkara/blob/main/images/4kpeaj.gif)
 
 ## Getting Started
 
