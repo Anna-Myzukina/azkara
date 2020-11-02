@@ -16,7 +16,6 @@ class NavBar extends StatelessWidget {
         iconSize: 32.0,
         items: [
           BottomNavigationBarItem(
-            backgroundColor: kMainBackground,
             icon: ImageIcon(
               AssetImage("icons/Group_222.png"),
               color: Colors.black,
