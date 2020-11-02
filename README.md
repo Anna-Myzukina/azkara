@@ -2,6 +2,8 @@
 
 A new Flutter application.
 
+https://github.com/Anna-Myzukina/azkara/blob/main/images/4kpeaj.gif
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
